@@ -50,9 +50,8 @@ db.json
 *.cert
 secrets/
 
-# Release 文件夹中的临时文件（但保留安装包）
-release/*.tmp
-release/*.temp
+# Release 文件夹（完全屏蔽）
+release/
 
 # 发布脚本文件夹
 scripts/
